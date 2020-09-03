@@ -23,13 +23,14 @@ curl https://raw.githubusercontent.com/FlorisBouchot/dotfiles/master/install.sh|
 # Installing CLI, GUI, MAS and VS Code Extentions. `--bundle`
 # Symlinks dotfiles to its directories. `--dotfiles`
 # Configuring MacOS system settings. `--system`
-./install.sh --all
+# Clone or download the repo
+git clone https://github.com/FlorisBouchot/dotfiles.git
+bash install.sh --all
 ```
 
 #### Options
 
 ```bash
-❯ ./install.sh --help
 
 My personal dotfiles.
 
