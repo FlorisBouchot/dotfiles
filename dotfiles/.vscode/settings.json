@@ -1,0 +1,33 @@
+{ 
+    // VS CODE SETTINGS
+
+    // Editor
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+
+    // Workbench
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.highlightModifiedTabs": true,
+
+    // Telemetry
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    // Live Server
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+    // Others
+    "git.autofetch": true,
+    "update.showReleaseNotes": false,
+    "files.autoSave": "afterDelay",
+    "explorer.sortOrder": "type"
+
+// test lol
+
+}

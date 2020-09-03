@@ -1,0 +1,82 @@
+##################################
+#        HOMEBREW PACKAGES       #
+##################################
+
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+
+
+###########################
+#        CLI Apps         #
+###########################
+
+brew 'git'
+brew 'wget'
+brew 'mas'
+brew 'ffmpeg'
+brew 'youtube-dl'
+
+
+###########################
+#         GUI Apps        #
+###########################
+
+# Browsers
+cask 'firefox'
+cask 'firefox-developer-edition'
+
+# Languages
+cask 'r'
+cask "java"
+
+# IDEs
+cask 'rstudio'
+cask 'Anaconda'
+
+cask 'pycharm-ce'
+cask 'intellij-idea-ce'
+
+cask 'visual-studio-code'
+cask 'open-in-code'
+
+
+# Virtualization
+cask 'docker'
+cask 'vmware-fusion'
+
+
+# Others
+
+cask 'screens-connect'
+cask 'vlc'
+cask 'signal'
+
+cask 'dozer'
+cask 'itsycal'
+cask 'font-fira-code'
+
+cask 'keka'
+cask 'KekaDefaultApp'
+
+
+###########################
+#       Mac App Store     #
+###########################
+
+mas 'Affinity Photo', id: 824183456
+mas 'Affinity Designer', id: 824171161
+
+mas 'Keynote', id: 409183694
+mas 'Pages', id: 409201541
+mas 'Numbers', id: 409203825
+mas 'Notability', id: 736189492
+
+mas 'Xcode', id: 497799835
+
+mas 'Magnet', id: 441258766
+mas 'Bitwarden', id: 1352778147
+mas 'Adblock Plus', id: 1432731683
+mas 'Book Track', id: 1496543317
+
+
+ # 982124349 FLAC MP3 Converter (6.2.17)

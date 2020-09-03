@@ -1,0 +1,64 @@
+
+[user]
+  name = Floris Bouchot
+  email = floris@florisbouchot.com
+ 
+
+[alias]
+
+  # Check status of working tree
+	st = status
+
+  # Git add all
+	aa = add -A
+
+  # Git commit with message
+	cm = commit -m
+
+  # Change branch
+  co = checkout
+
+  # Create new branch and change to it
+	cob = checkout -b
+
+  # Create new branch
+	br = branch
+
+  # Delete branch
+	brd = branch -d
+
+  # Force delete branch
+	brD = branch -D
+
+ # Merge branch and add message
+  mm = merge -m
+
+  # Add all & Commit
+	aacm = !git add -A && git commit -m
+
+  # Checkout to dev & Pull from origin dev
+	dev = !git checkout dev && git pull origin dev
+
+  # Checkout to master & Pull from origin master
+	master = !git checkout master && git pull origin 
+
+  # Push
+	po = push origin
+	pod = push origin dev
+	pom = push origin master
+
+	# Pull
+	plo = pull origin
+	plod = pull origin dev
+	plom = pull origin master
+
+  # Cherry pick
+	cp = cherry-pick
+
+  stash-all = stash save --include-untracked
+  # We wanna grab those pesky un-added files!
+  # https://git-scm.com/docs/git-stash
+
+  glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  # No need for a GUI - a nice, colorful, graphical representation
+  # https://git-scm.com/docs/git-log
