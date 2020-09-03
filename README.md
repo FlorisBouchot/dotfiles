@@ -47,7 +47,9 @@ all:      All installations (except init)
 A very big thanks to the following people and their amazing dotfiles and settings
 
 https://github.com/ryuta69/dotfiles
+
 https://github.com/mathiasbynens/dotfiles
+
 https://github.com/webpro/dotfiles
 
 And all the other people, websites and sources I totally forgot the name of!
