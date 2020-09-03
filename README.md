@@ -5,7 +5,9 @@
 
 This repository sets up new Mac's with a couple commands, it sets up:
 [My MacOS System Preferences](https://github.com/FlorisBouchot/dotfiles/blob/master/system/macos.sh)
+
 [My Applications and VS Code extentions](https://github.com/FlorisBouchot/dotfiles/tree/master/bundle)
+
 [And my dotfiles ](https://github.com/FlorisBouchot/dotfiles/tree/master/dotfiles) 
 
 

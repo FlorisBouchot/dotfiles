@@ -56,7 +56,8 @@ install_bundle() {
 	fi
 }
 
-initialize() {  //TODO Device name
+initialize() { 
+	
 	if ! ${TESTMODE}; then
 		xcode-select --install
 		/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -64,7 +65,7 @@ initialize() {  //TODO Device name
 
 		mkdir -p ${HOME}/.ssh/github
 		ssh-keygen -t rsa -b 4096 -C "floris@florisbouchot.com"
-		ssh-keyscan -t rsa github.com >> ${HOME}/.ssh/known_hosts
+		# ssh-keyscan -t rsa github.com >> ${HOME}/.ssh/known_hosts
 		# curl -u "FlorisBouchot" --data "{\"title\":\"Floris Bouchot's DEVICE\",\"key\":\"`cat ~/.ssh/id_rsa.pub`\"}" https://api.github.com/user/keys
 	fi
 
